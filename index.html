@@ -1,39 +1,213 @@
 <!DOCTYPE html>
-
-<html>
 <head>
-  <head>
-  		<meta charset="utf-8"/>
-  		<meta name="viewport" content="width=device-width">
-  		<title>TACO: THE MOVIE</title>
+<script src="/assets/jquery.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
+<title>TACO: THE MOVIE</title>
+<style>
 
-  		<link rel="stylesheet" type="text/css" href="style.css" />
-  	</head>
-  	<body>
-  		<!-- CONTENT GOES HERE -->
+body {
+background: #000000;
+  /*font-family: helvetica, sans-serif;
+  font-size: 60px;
+  margin: 0 auto;
+  max-width: 1000px;*/
+}
+*/
 
-  		<div class="main-container">
+#trailer {
+  line-height: normal;
+  max-width: 1000px;
+  margin: 0 auto;
+  background: #000000;
+  font-family: helvetica, sans-serif;
 
-  			<div class="header color">TACO: THE MOVIE</div>
+}
 
-  			<div class="buttons">
-  				<button class="button-main">HOMEPAGE</button>
-  				<button class="button-main">ABOUT</button>
-  				<button class="button-main">SHOP</button>
-  			</div>
 
-  			<div class="description color">TRAILER</div>
+h1 {
+  font-family: 'Monoton', cursive;
+  text-align: center;
+  font-size: 60px;
+  color: #aaaaaa;
+  margin: 0 0 10px 0;
+}
 
-  		</div>
-      <video src="COMPLETETacoFilm.mp4" width="500" height="300" loop muted autoplay controls poster="d">
-          <img src="poster.jpg">
-      </video>
-      <a class="twitter-timeline"  href="https://twitter.com/hashtag/Tacos" data-widget-id="960127275525181441" data-height="300" >#Tacos Tweets</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 
-<iframe width="450" height="300" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ0wNMYIdPXj4RdVOcOcQ1aqo&key=AIzaSyAGlnctWTWjieBOgJ7dH0QDl0_7-hS5Spo" allowfullscreen></iframe>
-  	</body>
+.active a
+{
+  border-bottom: 1px solid white;
+}
+
+a
+{
+  color: #fff;
+  text-decoration: none;
+}
+
+a:visited
+{
+  color: #fff;
+  text-decoration: none;
+}
+
+small {
+  opacity: 0;
+}
+
+.show-description p {
+  height: 150px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 16px;
+  }
+}
+
+.navbar
+{
+  width: 100%;
+  height: 50px;
+  display: block;
+  text-align: center;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.navbar div
+{
+  display: inline-block;
+  padding-right: 100px;
+  text-align: center;
+  font-family: 'Barlow Condensed', sans-serif;
+}
+
+.about
+{
+width: 700px;
+height: 400px;
+text-align: center;
+padding-top: 60px;
+padding-right: 400px;
+padding-left: 100px
+}
+
+.about div
+{
+width: 700px;
+height: 400px;
+text-align: center;
+padding-top: 60px;
+padding-right: 400px;
+padding-left: 100px
+}
+
+
+.crew
+{
+width: 700px;
+height: 400px;
+text-align: center;
+padding-top: 60px;
+padding-right: 400px;
+padding-left: 100px
+}
+
+.crew div
+{
+width: 700px;
+height: 400px;
+text-align: center;
+padding-top: 60px;
+padding-right: 400px;
+padding-left: 100px
+}
+
+
+.connect
+{
+width: 700px;
+height: 400px;
+text-align: center;
+padding-top: 60px;
+padding-right: 400px;
+padding-left: 100px
+}
+
+.connect div
+{
+width: 700px;
+height: 400px;
+text-align: center;
+padding-top: 60px;
+padding-right: 400px;
+padding-left: 100px
+}
+
+</style>
 
 </head>
 
-</html>
+<body>
+<h1>TACO :THE MOVIE</h1>
+
+<div class="navbar">
+
+<div id="home" class="active">
+  <p><a href="#gotohome">HOME</a></p>
+</div>
+
+<div id="about">
+  <p><a href="#gotoabout">ABOUT</a></p>
+</div>
+
+<div id="crew">
+  <p><a href="#gotocrew">CREW</a></p>
+</div>
+
+<div id="connect">
+  <p><a href="#gotoconnect">CONNECT</a></p>
+</div>
+</div>
+
+<div id="trailer">
+    <video src="tacofilm.mp4" align="center" width="100%" height="300%" loop muted autoplay controls>
+    </video>
+
+<div class="aboutpage">
+  <iframe id="gotoabout" class="about"src="about.html"</iframe>
+</div>
+
+<div class="crewpage">
+<iframe id="gotocrew" class="crew"src="crew.html"</iframe>
+</div>
+
+<div class="connectpage">
+<iframe id="gotoconnect" class="connect"src="connect.html"</iframe>
+</div>
+
+<script>
+  $('div').on('click', function() {
+      $(this).toggleClass('show-description');
+  });
+</script>
+
+</body>
