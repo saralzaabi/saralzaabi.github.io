@@ -1,213 +1,98 @@
 <!DOCTYPE html>
+<html>
 <head>
-<script src="/assets/jquery.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Barlow+Condensed" rel="stylesheet">
-<title>TACO: THE MOVIE</title>
-<style>
-
-body {
-background: #000000;
-  /*font-family: helvetica, sans-serif;
-  font-size: 60px;
-  margin: 0 auto;
-  max-width: 1000px;*/
-}
-*/
-
-#trailer {
-  line-height: normal;
-  max-width: 1000px;
-  margin: 0 auto;
-  background: #000000;
-  font-family: helvetica, sans-serif;
-
-}
-
-
-h1 {
-  font-family: 'Monoton', cursive;
-  text-align: center;
-  font-size: 60px;
-  color: #aaaaaa;
-  margin: 0 0 10px 0;
-}
-
-
-.active a
-{
-  border-bottom: 1px solid white;
-}
-
-a
-{
-  color: #fff;
-  text-decoration: none;
-}
-
-a:visited
-{
-  color: #fff;
-  text-decoration: none;
-}
-
-small {
-  opacity: 0;
-}
-
-.show-description p {
-  height: 150px;
-}
-
-.show-description small {
-  opacity: 1;
-}
-
-@media (max-width: 500px) {
-  h1 {
-    font-size: 50px;
-    margin-top: 20px;
-    line-height: 40px;
-  }
-
-  div {
-    margin: 20px 12px 0 12px;
-  }
-  p {
-    font-size: 20px;
-    line-height: 24px;
-  }
-  small {
-    font-size: 16px;
-  }
-}
-
-.navbar
-{
-  width: 100%;
-  height: 50px;
-  display: block;
-  text-align: center;
-  font-family: 'Barlow Condensed', sans-serif;
-}
-
-.navbar div
-{
-  display: inline-block;
-  padding-right: 100px;
-  text-align: center;
-  font-family: 'Barlow Condensed', sans-serif;
-}
-
-.about
-{
-width: 700px;
-height: 400px;
-text-align: center;
-padding-top: 60px;
-padding-right: 400px;
-padding-left: 100px
-}
-
-.about div
-{
-width: 700px;
-height: 400px;
-text-align: center;
-padding-top: 60px;
-padding-right: 400px;
-padding-left: 100px
-}
-
-
-.crew
-{
-width: 700px;
-height: 400px;
-text-align: center;
-padding-top: 60px;
-padding-right: 400px;
-padding-left: 100px
-}
-
-.crew div
-{
-width: 700px;
-height: 400px;
-text-align: center;
-padding-top: 60px;
-padding-right: 400px;
-padding-left: 100px
-}
-
-
-.connect
-{
-width: 700px;
-height: 400px;
-text-align: center;
-padding-top: 60px;
-padding-right: 400px;
-padding-left: 100px
-}
-
-.connect div
-{
-width: 700px;
-height: 400px;
-text-align: center;
-padding-top: 60px;
-padding-right: 400px;
-padding-left: 100px
-}
-
-</style>
-
+  <title>TACO: The Movie</title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Poppins|Poppins:Italic" rel="stylesheet">
 </head>
 
 <body>
-<h1>TACO :THE MOVIE</h1>
+  <div class="landing" id="land">
+    <h1>TACO: The Movie</h1>
+    <p class="pre">
+      Your options for today are:
+    </p>
 
-<div class="navbar">
+    <p class="options">
+      One hot new movie. <br/>
+      One spicy about page. </br>
+      One delicious introduction to our crew. </br>
+    </p>
 
-<div id="home" class="active">
-  <p><a href="#gotohome">HOME</a></p>
+    <button class="button" id="tomovie">ORDER UP</button>
+  </div>
+
+  <div id="main-one" class="mainOne">
+    <h1>TACO: the MOVIE</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/szG_-XsrSRg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <button class="small-button" id="toabout">NEXT COURSE</button>
+  </div>
+
+  <div id="main-two" class="mainTwo">
+    <h1>ABOUT</h1>
+    <div class="about">
+    <p>
+      TACO: THE MOVIE is a story for the ages, now that you have watched the trailer, you can follow Neyva on the quest towards her taco.
+      </div>
+    <div class="button-hold">
+      <button class ="small-button" id="backtomovie">PREV COURSE</button>
+      <button class="small-button" id="tocrew">NEXT COURSE</button>
+    </div>
+    </p>
+  </div>
+
+  <div id="main-three" class="mainThree">
+    <h1>CREW</h1>
+   Behind the scenes: the crew that made this happen.
+    <div class= "crew_bios">
+      <div class= "crew_bios">
+  <h2 style="text-align:center"></h2>
+<div class="card1">
+
+  <h1>Jahnae</h1>
+  <p class="title">Actress</p>
+  <p>Sasfhohiwehiwehowheohwegh</p>
+  <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-dribbble"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+    <a href="#"><i class="fa fa-facebook"></i></a>
+</p>
+</div>
+<div class="card2">
+
+  <h1>Neyva</h1>
+  <p class="title">Actress</p>
+  <p>Sasfhohiwehiwehowheohwegh</p>
+  <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-dribbble"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+    <a href="#"><i class="fa fa-facebook"></i></a>
+</p>
+</div>
+<div class="card3">
+
+  <h1>Sara</h1>
+  <p class="title">Director</p>
+  <p>Sasfhohiwehiwehowheohwegh</p>
+  <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-dribbble"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+    <a href="#"><i class="fa fa-facebook"></i></a>
+</p>
 </div>
 
-<div id="about">
-  <p><a href="#gotoabout">ABOUT</a></p>
-</div>
+<p>
+</p>
 
-<div id="crew">
-  <p><a href="#gotocrew">CREW</a></p>
-</div>
-
-<div id="connect">
-  <p><a href="#gotoconnect">CONNECT</a></p>
-</div>
-</div>
-
-<div id="trailer">
-    <video src="tacofilm.mp4" align="center" width="100%" height="300%" loop muted autoplay controls>
-    </video>
-
-<div class="aboutpage">
-  <iframe id="gotoabout" class="about"src="about.html"</iframe>
-</div>
-
-<div class="crewpage">
-<iframe id="gotocrew" class="crew"src="crew.html"</iframe>
-</div>
-
-<div class="connectpage">
-<iframe id="gotoconnect" class="connect"src="connect.html"</iframe>
-</div>
-
-<script>
-  $('div').on('click', function() {
-      $(this).toggleClass('show-description');
-  });
-</script>
+    </div>
+    <div class="button-hold">
+      <button class ="small-button" id="backtoabout">PREV COURSE</button>
+    </div>
+  </div>
 
 </body>
+<script src="script.js"></script>
+</html>
