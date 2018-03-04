@@ -1,0 +1,81 @@
+body
+{
+  display: block;
+  background-image: url("abudhabiskyline.png");
+}
+
+
+.title
+{
+  font-family: 'Jura', sans-serif;
+  font-size: 300%;
+  text-align: center;
+  height: 30px;
+  padding-top: 5%;
+
+}
+
+.timeline {
+position: absolute;
+width: 90%;
+height: 55%;
+padding-left: 30px;
+padding-right: 30px;
+}
+
+.circle {
+  width: 3%;
+  height: 5%;
+  border-radius: 100px;
+  border-style: dashed;
+  border-width: 5px;
+  border-color: black;
+  opacity: 0.000001;
+
+}
+
+.electra {
+  position: absolute;
+  top: 45%;
+  left:9%;
+}
+
+
+.fish {
+    position: absolute;
+    top: 45%;
+    left: 28%;
+
+}
+
+.corniche {
+     position: absolute;
+     top: 45%;
+     left: 46%;
+}
+
+
+.hamdan {
+    position: absolute;
+    top: 45%;
+    left: 65%;
+}
+
+.shisha {
+    position: absolute;
+    top: 45%;
+    left: 83%;
+
+}
+
+button {
+  border: block;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #252623;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+}
