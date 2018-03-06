@@ -27,3 +27,11 @@ body
   font-size: 60px;
 
 }
+
+a
+{
+  text-decoration: none;
+  color: #252623;
+  font-size: 30px;
+  background-color: inherit;
+}
