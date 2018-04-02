@@ -1,9 +1,17 @@
 
 body{
     background-color: black;
-    font-family: Helvetica;
+    font-family: 'Pacifico', cursive;
     font-size: 18px;
     margin: 2px;
     display: block;
     margin: 8px;
 }
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: pink;
+    }
