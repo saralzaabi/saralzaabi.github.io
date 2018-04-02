@@ -1,10 +1,12 @@
 body{
     background-color: black;
-    font-family: 'Pacifico', cursive;
-    font-size: 18px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 30px;
+    color: white;
     margin: 2px;
     display: block;
     margin: 8px;
+    text-align: center;
 }
 
 a:link {
@@ -18,3 +20,31 @@ a:hover {
     a:active {
         color: white;
     }
+
+.movie {
+padding: 25px;
+
+}
+
+.sound {
+padding: 25px;
+
+}
+
+.comix {
+padding: 25px;
+
+
+}
+
+.video {
+padding: 25px;
+
+
+}
+
+.dasfx {
+
+padding: 25px;
+
+}
