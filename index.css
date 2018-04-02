@@ -1,3 +1,9 @@
-#grad { background: linear-gradient (white, grey);
-}
 
+body{
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 18px;
+    margin: 2px;
+    display: block;
+    margin: 8px;
+}
