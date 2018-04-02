@@ -21,6 +21,10 @@ a:hover {
         color: white;
     }
 
+a:visited {
+color: white;
+}
+
 .movie {
 margin-top: 40px
 }
