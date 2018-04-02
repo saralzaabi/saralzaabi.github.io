@@ -1,7 +1,7 @@
 body{
     background-color: black;
     font-family: 'Press Start 2P', cursive;
-    font-size: 30px;
+    font-size: 40px;
     color: white;
     margin: 2px;
     display: block;
@@ -22,29 +22,29 @@ a:hover {
     }
 
 .movie {
-padding: 25px;
-
+margin-top: 40px
 }
 
 .sound {
-padding: 25px;
+margin-top: 40px
 
 }
 
 .comix {
-padding: 25px;
 
+margin-top: 40px
 
 }
 
 .video {
-padding: 25px;
 
+margin-top: 40px
 
 }
 
 .dasfx {
 
-padding: 25px;
+margin-top: 40px
+margin-bottom: 40px
 
 }
