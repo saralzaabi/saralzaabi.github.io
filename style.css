@@ -1,4 +1,3 @@
-
 body{
     background-color: black;
     font-family: 'Pacifico', cursive;
@@ -13,5 +12,9 @@ a:link {
 }
 
 a:hover {
-    color: pink;
+    color: white;
+    }
+
+    a:active {
+        color: white;
     }
