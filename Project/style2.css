@@ -1,82 +1,91 @@
 body
 {
-  display: block;
-  background-image: url("background.jpg");
+
+  background-image: url("");
+  background-repeat: no-repeat;
 }
 
 
-.title
+h1
 {
   font-family: 'Jura', sans-serif;
   font-size: 300%;
   text-align: center;
-  height: 30px;
-  padding-top: 5%;
+  height: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
 
 }
 
-.jukebox {
-position: absolute;
-padding-left: 100px;
-padding-right: 100px;
+#popup {
+font-family: 'Jura', sans-serif;
+color: hotpink;
+cursor: pointer;
+text-align: center;
+font-size: 50px;
+font-style: italic;
+
+}
+#title #popup {
+  display: none;
+}
+
+#title:hover #popup {
+  display: block;
+
+}
+
+#popup2 {
+font-family: 'Jura', sans-serif;
+color: hotpink;
+cursor: pointer;
+text-align: center;
+font-size: 50px;
+font-style: italic;
+
+}
+#title2 #popup2 {
+  display: none;
+}
+
+#title2:hover #popup2 {
+  display: block;
+
+}
+
+.title2
+{
+  font-family: 'Jura', sans-serif;
+  font-size: 300%;
+  text-align: center;
+  height: 20px;
+  padding-bottom: 60px;
+  cursor: pointer;
+
 }
 
 
-.song1 {
-  position: absolute;
+.song {
+  display: block;
   top: 45%;
   left:9%;
   font-size: 30px;
   color: black;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.song div{
+  display: inline-block;
+  padding-right: 100px;
+
 
 }
 
+.video {
 
-.song2 {
-    position: absolute;
-    top: 45%;
-    left: 28%;
-    font-size: 30px;
-    color: black;
-
+  width: 50%;
+  margin: 0 auto;
 }
-
-.song3 {
-     position: absolute;
-     top: 45%;
-     left: 46%;
-     font-size: 30px;
-     color: black;
-}
-
-
-.song4 {
-    position: absolute;
-    top: 45%;
-    left: 65%;
-    font-size: 30px;
-    color: black;
-}
-
-/* From w3schools.com/ */
-
-[class*="col-"] {
-    width: 100%;
-}
-@media only screen and (min-width: 768px) {
-
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
-}
-
-/* From w3schools.com/ */

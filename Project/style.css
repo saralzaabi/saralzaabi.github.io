@@ -2,8 +2,12 @@ body
 {
   font-family: 'Oxygen', sans-serif;
   display: block;
-  background-image: url("background.jpg");
+  background-image: url("jj.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+
 
 .headings
 {
@@ -12,41 +16,70 @@ body
   text-align: center;
   width: 100%;
   color: #252623;
+  font-size: 50px;
   overflow: hidden;
 }
 
 .headings h1
 {
   font-family: 'Jura', sans-serif;
-  font-size: 80px;
+  font-size: 120px;
+  color: white;
 
 }
 .headings h2
 {
   font-family: 'Oxygen', sans-serif;
   font-size: 60px;
+  color: white;
 
 }
 
-/* From w3schools.com/ */
+a.effect-box:after,
+a.effect-box:before {
+	content: '';
+  position: absolute;
+  left: 0;
+  display: inline-block;
+  height: 1em;
+  width: 100%;
+  margin-top: 10px;
+  opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
 
-[class*="col-"] {
-    width: 100%;
-}
-@media only screen and (min-width: 768px) {
-
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
 }
 
-/* From w3schools.com/ */
+a.effect-box:before {
+  border-left: 1px solid;
+  border-right: 1px solid;
+  -webkit-transform: scale(1,0);
+	transform: scale(1,0);
+}
+
+a.effect-box:after {
+  border-bottom: 1px solid;
+  border-top: 1px solid;
+  -webkit-transform: scale(0,1);
+	transform: scale(0,1);
+}
+
+a.effect-box:hover:after,
+a.effect-box:hover:before {
+  opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: hotpink;
+}
+
+/*source: codepen*/
