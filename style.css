@@ -26,29 +26,36 @@ color: white;
 }
 
 .movie {
-margin-top: 40px
+margin-top: 40px;
 }
 
 .sound {
-margin-top: 40px
+margin-top: 40px;
 
 }
 
 .comix {
 
-margin-top: 40px
+margin-top: 40px;
 
 }
 
 .video {
 
-margin-top: 40px
+margin-top: 40px;
 
 }
 
-.dasfx {
+.codingproject {
 
-margin-top: 40px
-margin-bottom: 40px
+margin-top: 40px;
+}
+
+
+
+.animation {
+
+margin-top: 40px;
+margin-bottom: 40px;
 
 }
