@@ -24,6 +24,7 @@ html {
   list-style-type: none;
 }
 
+<<<<<<< HEAD
 
 .navhome ul li a {
   padding-top: 90px;
@@ -37,10 +38,19 @@ html {
 
 .navhome ul li a:hover {
   -webkit-transform: scale(1.2);
+=======
+.movie {
+margin-top: 40px;
+}
+
+.sound {
+margin-top: 40px;
+>>>>>>> 8598a7a9b4d1605260f4e018e33f562f52aafbe0
 
 }
 
 
+<<<<<<< HEAD
 #popup {
 font-family: 'Orbitron', sans-serif;
 color: hotpink;
@@ -48,6 +58,9 @@ cursor: url(),auto;
 text-align: center;
 font-size: 10px;
 font-style: italic;
+=======
+margin-top: 40px;
+>>>>>>> 8598a7a9b4d1605260f4e018e33f562f52aafbe0
 
 }
 #homehover #popup {
@@ -57,12 +70,17 @@ font-style: italic;
 #homehover:hover #popup {
   display: block;
 
+<<<<<<< HEAD
 }
+=======
+margin-top: 40px;
+>>>>>>> 8598a7a9b4d1605260f4e018e33f562f52aafbe0
 
 #abouthover #popup {
   display: none;
 }
 
+<<<<<<< HEAD
 #abouthover:hover #popup {
   display: block;
 
@@ -85,6 +103,19 @@ font-style: italic;
   display: block;
 
 }
+=======
+.codingproject {
+
+margin-top: 40px;
+}
+
+
+
+.animation {
+
+margin-top: 40px;
+margin-bottom: 40px;
+>>>>>>> 8598a7a9b4d1605260f4e018e33f562f52aafbe0
 
 img {
     height: 800px;
