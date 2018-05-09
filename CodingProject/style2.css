@@ -1,0 +1,91 @@
+body
+{
+
+  background-image: url("");
+  background-repeat: no-repeat;
+}
+
+
+h1
+{
+  font-family: 'Jura', sans-serif;
+  font-size: 300%;
+  text-align: center;
+  height: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+
+}
+
+#popup {
+font-family: 'Jura', sans-serif;
+color: hotpink;
+cursor: pointer;
+text-align: center;
+font-size: 50px;
+font-style: italic;
+
+}
+#title #popup {
+  display: none;
+}
+
+#title:hover #popup {
+  display: block;
+
+}
+
+#popup2 {
+font-family: 'Jura', sans-serif;
+color: hotpink;
+cursor: pointer;
+text-align: center;
+font-size: 50px;
+font-style: italic;
+
+}
+#title2 #popup2 {
+  display: none;
+}
+
+#title2:hover #popup2 {
+  display: block;
+
+}
+
+.title2
+{
+  font-family: 'Jura', sans-serif;
+  font-size: 300%;
+  text-align: center;
+  height: 20px;
+  padding-bottom: 60px;
+  cursor: pointer;
+
+}
+
+
+.song {
+  display: block;
+  top: 45%;
+  left:9%;
+  font-size: 30px;
+  color: black;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.song div{
+  display: inline-block;
+  padding-right: 100px;
+
+
+}
+
+.video {
+
+  width: 50%;
+  margin: 0 auto;
+}
