@@ -1,0 +1,134 @@
+body {
+
+background-color: black;
+
+color:white;
+font-size:14px;
+font-family: 'Quicksand', Helvetica, Arial, sans-serif;
+}
+
+.nav ul {
+  margin-left: 700px;
+  text-align: center;
+  background: transparent;
+  float: right;
+  cursor: url(),auto;
+  transition: 0.3s;
+}
+
+.nav ul li {
+  display: inline-block;
+}
+
+.nav ul li a {
+  margin: 10px;
+  font-family:'Quicksand', Helvetica, Arial, sans-serif;
+  text-transform: lowercase;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.nav ul li a:hover {
+  -webkit-transform: scale(1.2);
+
+}
+
+#popup {
+font-family: 'Quicksand', Helvetica, Arial, sans-serif;
+color: hotpink;
+cursor: url(),auto;
+text-align: center;
+font-size: 10px;
+font-style: italic;
+
+}
+#homehover #popup {
+  display: none;
+}
+
+#homehover:hover #popup {
+  display: block;
+
+}
+
+#abouthover #popup {
+  display: none;
+}
+
+#abouthover:hover #popup {
+  display: block;
+
+}
+
+#projectshover #popup {
+  display: none;
+}
+
+#projectshover:hover #popup {
+  display: block;
+
+}
+
+#contacthover #popup {
+  display: none;
+}
+
+#contacthover:hover #popup {
+  display: block;
+
+}
+
+
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    line-height: 1;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+}
+
+}
+body {
+  background:#111;
+  margin: 0;
+  justify-content: center;
+  display: flex;
+
+}
+
+.aboutme {
+padding-top: 100px;
+padding-right: 100px;
+padding-left: 100px;
+text-align: center;
+margin-bottom: -15px;
+}
+
+
+.aboutme h1 {
+
+font-size: 25px;
+font-family: 'Quicksand', Helvetica, Arial, sans-serif;
+}
+
+.active
+{
+  border-bottom: 1px solid white;
+  text-align: center;
+}

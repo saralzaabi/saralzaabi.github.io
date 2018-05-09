@@ -1,0 +1,157 @@
+body {
+
+background-color: black;
+
+color:white;
+font-size:14px;
+font-family: font-family: 'Quicksand', Helvetica, Arial, sans-serif;
+}
+
+.nav ul {
+  margin-left: 700px;
+  text-align: center;
+  background: transparent;
+  float: right;
+  cursor: url(),auto;
+  transition: 0.3s;
+}
+
+.nav ul li {
+  display: inline-block;
+}
+
+.nav ul li a {
+  margin: 10px;
+  font-family:'Quicksand', Helvetica, Arial, sans-serif;
+  text-transform: lowercase;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.nav ul li a:hover {
+  -webkit-transform: scale(1.2);
+
+}
+
+#popup {
+font-family: 'Quicksand', Helvetica, Arial, sans-serif;
+color: hotpink;
+cursor: url(),auto;
+text-align: center;
+font-size: 10px;
+font-style: italic;
+
+}
+#homehover #popup {
+  display: none;
+}
+
+#homehover:hover #popup {
+  display: block;
+
+}
+
+#abouthover #popup {
+  display: none;
+}
+
+#abouthover:hover #popup {
+  display: block;
+
+}
+
+#projectshover #popup {
+  display: none;
+}
+
+#projectshover:hover #popup {
+  display: block;
+
+}
+
+#contacthover #popup {
+  display: none;
+}
+
+#contacthover:hover #popup {
+  display: block;
+
+}
+
+a:hover {
+    color: hotpink;
+    text-decoration: none;
+
+  }
+
+  a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+h1 {
+      padding-top: 150px;
+      color: white;
+      text-align: center;
+      padding-left: 100px;
+      padding-right: 100px;
+      font-size: 20px;
+      font-family: 'Quicksand', Helvetica, Arial, sans-serif;
+
+}
+
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin-left: 50px;
+}
+
+.icon-bar a {
+  display: inline-block;
+  margin-top: 100px;
+  text-align: center;
+  padding: 60px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 80px;
+  margin-right: 100px;
+}
+
+.icon-bar a:hover {
+  background-color: hotpink;
+}
+
+.facebook {
+  background: #ADD8E6;
+  color: white;
+}
+
+.twitter {
+  background: #ffb6c1;
+  color: white;
+}
+
+.google {
+  background: #98fb98;
+  color: white;
+}
+
+.soundcloud {
+
+  background: #FFA500;
+  color: white;
+}
+
+.active
+{
+  border-bottom: 1px solid white;
+  text-align: center;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)file:///Users/saraalkharraz/Desktop/github/projectspage.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <link href="./my projects_files/css" rel="stylesheet">
+<link href="./my projects_files/css(1)" rel="stylesheet">
+  <link href="./my projects_files/css(2)" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./my projects_files/style.css"> 
+
+<title> my projects </title>
+
+ </head>
+
+<body>
+
+  <div class="nav">
+    <ul>
+      <li>
+        <div id="homehover">
+        <a href="file:///Users/saraalkharraz/Desktop/github/index.html">home</a>
+        <div id="popup">click here to return home</div>
+      </div></li>
+      <li>
+          <div id="abouthover">
+        <a href="file:///Users/saraalkharraz/Desktop/github/aboutpage.html">about</a>
+        <div id="popup">click here to know more about me </div>
+      </div></li>
+
+      <li>
+        <div id="projectshover">
+        <a href="file:///Users/saraalkharraz/Desktop/github/projectspage.html">projects</a>
+          <div id="popup"> </div>
+      </div></li>
+
+      <li>
+          <div id="contacthover">
+        <a href="file:///Users/saraalkharraz/Desktop/github/contactpage.html">contact</a>
+        <div id="popup">click here to contact me </div>
+
+      </div></li>
+
+    </ul>
+
+    <div class="row">
+  <div class="column">
+    <img src="./my projects_files/animationimg.png" style="width: 50%;height: 60%;" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="./my projects_files/comicimg.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="./my projects_files/videoimg.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="./my projects_files/soundimg.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>
+
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">×</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="./my projects_files/animationimg.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="./my projects_files/comicimg.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="./my projects_files/videoimg.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="./my projects_files/soundimg.png" style="width:100%">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="./my projects_files/animationimg.png" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./my projects_files/comicimg.png" style="width:100%" onclick="currentSlide(2)" alt="Trolltunga, Norway">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./my projects_files/videoimg.png" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="./my projects_files/soundimg.png" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+<script src="file:///Users/saraalkharraz/Desktop/github/script.js"></script>
+</div></body></html>
